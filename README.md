@@ -27,6 +27,11 @@ Apply filter `ftp&&len(frame)>=94`
 
 > Perusahaan nanomate baru saja kebobolan. Mereka menyewamu untuk mencari tahu bagaimana caranya pelaku bisa masuk.
 
+1. Cari yang menggunakan protocol HTTP, kemudian klik follow. Dapat dilihat terdapat host dengan nama nanomate-solutions.com yang mana itu adalah nama perusahaan yang sedang kebobolan. Dapat dilihat jga web server yang digunakan adalah apache versi 2.4.56
+
+![Evidence1](https://github.com/Zaar97/Jarkom-Modul-1-IT27-2024/blob/main/image/image26.png)
+
+
 
 ## Soal 3
 **How Many packets?**
