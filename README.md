@@ -73,10 +73,27 @@
 
 > Sebagai kewajiban untuk laporan, aku diminta untuk mencari tahu berapa kali attempt login yang dilakukan oleh hacker. Dapatkah kamu membantuku untuk menganalisanya?
 
+1. Gunakan statistics pada bagian packet lengths. Apply filter frame.len == 94 (saat di scroll, semua response login memiliki length >=94. Terlihat bahwa jumlah packets adalah 934
+
+![image](https://github.com/Zaar97/Jarkom-Modul-1-IT27-2024/assets/128958228/91809bb0-ad68-433f-b146-904cb539209c)
+
+2. Input jumlah paket ke terminal
+
+![image](https://github.com/Zaar97/Jarkom-Modul-1-IT27-2024/assets/128958228/1799f843-5065-4b5a-95a5-7cc1e2dad6cd)
+
 ## Soal 4
 **trace him**
 
 > Selain menghitung jumlah packet, coba lacak juga ip penyerang tersebut!
+
+1. Dapat diamati, bahwa source IP 10.15.40.20 mengirimkan response "Response: 530 Login Incorrect" kepada IP destination 10.30.3.4 . Ini menunjukkan bahwa IP 10.30.3.4 adalah IP yang melakukakan percobaan login ke source
+
+![image](https://github.com/Zaar97/Jarkom-Modul-1-IT27-2024/assets/128958228/253b9eab-a2b3-4bcf-998f-cf3dd82ae02d)
+
+2. Input IP ke terminal
+
+![image](https://github.com/Zaar97/Jarkom-Modul-1-IT27-2024/assets/128958228/755f61d9-1160-487b-b210-978370cee6d0)
+
 
 ## Soal 5
 **creds**
