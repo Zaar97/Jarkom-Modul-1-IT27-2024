@@ -22,6 +22,12 @@ Apply filter `ftp&&len(frame)>=94`
 ![Screenshot 2024-03-31 075324](https://github.com/Zaar97/Jarkom-Modul-1-IT27-2024/assets/128958228/5ec0b6cb-6702-4e1a-8660-74bddeda5bc6)
 
 
+## Soal 2
+**evidence**
+
+> Perusahaan nanomate baru saja kebobolan. Mereka menyewamu untuk mencari tahu bagaimana caranya pelaku bisa masuk.
+
+
 ## Soal 3
 **How Many packets?**
 
