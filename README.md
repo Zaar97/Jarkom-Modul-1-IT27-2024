@@ -22,9 +22,17 @@
 
 > Pradityo mencoba mengembangkan server ftp, tetapi seseorang mencoba melakukan bruteforce login, bisakah Anda menganalisis apa yang terjadi?
 
-Apply filter `ftp&&len(frame)>=94`
-![Screenshot 2024-03-31 075324](https://github.com/Zaar97/Jarkom-Modul-1-IT27-2024/assets/128958228/5ec0b6cb-6702-4e1a-8660-74bddeda5bc6)
+1. Gunakan filter ftp.response.code == 230 untuk mendapatkan paket yang mengandung paket response "Response: 230 Login successful"
 
+![image](https://github.com/Zaar97/Jarkom-Modul-1-IT27-2024/assets/128958228/f4d4cd40-b0e8-4573-8de8-15655d62e3a2)
+
+2. Klik follow dan terlihat user dan password yang berhasil didapatkan oleh hacker setelah melakukan bruteforce login
+
+![image](https://github.com/Zaar97/Jarkom-Modul-1-IT27-2024/assets/128958228/aad49d59-7301-4e74-bcc9-cc68b625f007)
+
+3. Input password ke terminal
+
+![image](https://github.com/Zaar97/Jarkom-Modul-1-IT27-2024/assets/128958228/fe92a8fa-6f45-4f65-881d-8c261eb0848c)
 
 ## Soal 2
 **evidence**
